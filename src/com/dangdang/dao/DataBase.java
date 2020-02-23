@@ -11,10 +11,10 @@ import com.dangdang.daoImpl.ProductDaoImpl;
 import com.dangdang.daoImpl.SignonDaoImpl;
 
 public class DataBase {
-	public static String url = "jdbc:mysql://192.144.131.190/dangdangwang?characterEncoding=utf-8";
-	public static String user = "root";
-	public static String password = "dytsaj-9Fisga-qogmos";
-	public static String driver = "com.mysql.jdbc.Driver";
+	public static String url = "";
+	public static String user = "";
+	public static String password = "";
+	public static String driver = "";
 	public static Connection conn = null;
 	public static PreparedStatement ps = null;
 	public static ResultSet rs = null;
